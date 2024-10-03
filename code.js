@@ -10,7 +10,7 @@ function mergesort(array) {
             let right_Index = middle + 1;
 
             while (left_Index <= middle && right_Index <= final) {
-                if (array[left] > array[right]) {
+                if (array[left_Index] > array[right_Index]) {
                     let value = array[right_Index];
                     for (let k = right_Index; k > left_Index; k--){
                         array[k] = array[k - 1];
