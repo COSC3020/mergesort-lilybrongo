@@ -17,7 +17,7 @@ markdown file.
 
 From class lecture slides/video we discussed that the mergesort run time will be $\Theta(nlog(n))$. With this knowledge, I continued on from the proof explained in the slides and understood that since there is a nested loop this changes the complexity to $\Theta(n^2 log(n))$. This new complexity would also be the worst case of runtime complexity after combinging the implementation of the outer loop, the inner loop, and the merge function itself. 
 
-I used lecture slides and the videos provided from class. I also used geeksforgeeks: https://www.geeksforgeeks.org/time-and-space-complexity-analysis-of-merge-sort/ to help explain the overall time complexity of merge sort. I jumped to this exercise because I had just worked on divide and conquer so I also used some logic and resources previously referrenced in that exercise.
+I used lecture slides and the videos provided from class. I also used geeksforgeeks: https://www.geeksforgeeks.org/time-and-space-complexity-analysis-of-merge-sort/ to help explain the overall time complexity of merge sort. I jumped to this exercise because I had just worked on divide and conquer so I also used some logic and resources previously referrenced in that exercise. I communicated and collaborated with fellow students Daniel Collins and Will Greiner. Their repositories are mergesort-Will-GreinerUWYO and mergesort-22dcolli-1.
 
 I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
